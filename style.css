@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    background-color: rgb(19, 17, 17);
+}
+
+nav{
+    background-color: rgb(79, 75, 75);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul div{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    text-shadow: 0px 0px 12px rgb(245, 209, 3);
+}
+
+button{
+    margin-right: 50px;
+    padding: 15px 25px;
+    background-color: rgb(253, 242, 80);
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color:rgb(114, 111, 62) ;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    padding: 0px 180px;
+    color: white;
+}
+
+.p1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.p2{
+    margin-top: 5px;
+}
+
+
+icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 10px 0px;
+
+}
+
+/* .visa{
+    height: 50px;
+}
+
+.tinder{
+    height: 50px;
+}
+
+.samsung{
+    height: 50px;
+}
+
+.jpmorgan{
+    height: 50px;
+}
+
+.verizon{
+    height: 50px;
+} */
+
+.pg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.aboutMe{
+    background-color: rgb(95, 94, 94);
+}
+
+.container{
+    color: white;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: auto auto;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    column-gap: 185px;
+    padding-left: 180px;
+    padding-bottom: 40px;
+}
+
+.g1{
+    font-size: 30px;
+}
+
+.g7{
+    grid-column: 1/2;
+}
+
+.ending{
+    color: white;
+    padding-left: 180px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.e1{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.e2{
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+footer{
+    display: grid;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 55px;
+    color: white;
+    background-color: rgb(79, 75, 75);
+}
+
+.socials{
+    padding-left: 25px;
+}
+
+.socials img{
+    padding: 0px 10px 0px 0px;
+}
+
+.socials img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.rights{
+    margin: 0px;
+    padding-bottom: 5px;
+}
